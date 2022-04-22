@@ -8,6 +8,7 @@ const questions = [
     message: "What is the name of your title?",
     name: "titleName",
   },
+  {},
 ];
 
 inquirer.prompt(questions);
