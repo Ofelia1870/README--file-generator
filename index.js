@@ -3,12 +3,20 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 // TODO: Create an array of questions for user input
 const questions = [
+  // user inputs a name for their project
   {
     type: "input",
     message: "What is the name of your title?",
     name: "titleName",
   },
-  {},
+
+  // User inputs the links to the Installation Section within Table of contents
+
+  {
+    type: "input",
+    name: "installationLink",
+    message: "Please input the link to your project Installation Section: ",
+  },
 ];
 
 inquirer.prompt(questions);
