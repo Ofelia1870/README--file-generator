@@ -21,36 +21,44 @@ const questions = [
   // User inputs the links to the Usage Section within Table of contents
   {
     type: "input",
-    name: "UsageLink",
+    name: "usageLink",
     message: "Please input the link to your project Usage Section: ",
   },
 
   // User inputs the links to the Contributing Section within Table of contents
   {
     type: "input",
-    name: "ContributingLink",
+    name: "contributingLink",
     message: "Please input the link to your project Contributing Section: ",
   },
 
   // User inputs the links to the Contributing Section within Table of contents
   {
     type: "input",
-    name: "TestsLink",
+    name: "testsLink",
     message: "Please input the link to your project Test Section: ",
   },
 
   // User inputs the links to the Questions Section within Table of contents
   {
     type: "input",
-    name: "QuestionsLink",
+    name: "questionsLink",
     message: "Please input the link to your project Questions Section: ",
   },
 
   // User inputs the links to the License Section within Table of contents
   {
     type: "input",
-    name: "LicenseLink",
+    name: "licenseLink",
     message: "Please input the link to your project License Section: ",
+  },
+
+  //   User inputs a description of their project
+  {
+    type: "input",
+    name: "description",
+    message:
+      "Please enter a brief text description of the what, why, and how of your project: ",
   },
 ];
 
