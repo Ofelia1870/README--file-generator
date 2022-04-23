@@ -83,6 +83,14 @@ const questions = [
     message:
       "Enter guidelines for how other users can go about contributing to your project: ",
   },
+
+  // User inputs tests and examples on how to run them for their project
+  {
+    type: "input",
+    name: "tests",
+    message:
+      "Write the test instructions for your project and provide running examples: ",
+  },
 ];
 
 inquirer.prompt(questions);
