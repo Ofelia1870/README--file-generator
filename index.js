@@ -67,6 +67,22 @@ const questions = [
     name: "installation",
     message: "Input the steps required to install your project: ",
   },
+
+  // User inputs instructions for usage of their project
+  {
+    type: "input",
+    name: "usage",
+    message:
+      "Input the instructions for your project and examples/demonstration for usage: ",
+  },
+
+  // User inputs how others can contribute to their project
+  {
+    type: "input",
+    name: "contribute",
+    message:
+      "Enter guidelines for how other users can go about contributing to your project: ",
+  },
 ];
 
 inquirer.prompt(questions);
