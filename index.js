@@ -58,7 +58,14 @@ const questions = [
     type: "input",
     name: "description",
     message:
-      "Please enter a brief text description of the what, why, and how of your project: ",
+      "Enter a brief text description of the what, why, and how of your project: ",
+  },
+
+  //   User inputs instructions for installation of running project
+  {
+    type: "input",
+    name: "installation",
+    message: "Input the steps required to install your project: ",
   },
 ];
 
