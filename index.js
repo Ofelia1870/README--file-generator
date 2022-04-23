@@ -17,6 +17,41 @@ const questions = [
     name: "installationLink",
     message: "Please input the link to your project Installation Section: ",
   },
+
+  // User inputs the links to the Usage Section within Table of contents
+  {
+    type: "input",
+    name: "UsageLink",
+    message: "Please input the link to your project Usage Section: ",
+  },
+
+  // User inputs the links to the Contributing Section within Table of contents
+  {
+    type: "input",
+    name: "ContributingLink",
+    message: "Please input the link to your project Contributing Section: ",
+  },
+
+  // User inputs the links to the Contributing Section within Table of contents
+  {
+    type: "input",
+    name: "TestsLink",
+    message: "Please input the link to your project Test Section: ",
+  },
+
+  // User inputs the links to the Questions Section within Table of contents
+  {
+    type: "input",
+    name: "QuestionsLink",
+    message: "Please input the link to your project Questions Section: ",
+  },
+
+  // User inputs the links to the License Section within Table of contents
+  {
+    type: "input",
+    name: "LicenseLink",
+    message: "Please input the link to your project License Section: ",
+  },
 ];
 
 inquirer.prompt(questions);
