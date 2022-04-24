@@ -120,6 +120,13 @@ const questions = [
     name: "email",
     message: "Enter your email address: ",
   },
+
+  // User inputs contact info
+  {
+    type: "input",
+    name: "contact",
+    message: "Enter instructions for contacting you: ",
+  },
 ];
 
 inquirer.prompt(questions);
