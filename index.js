@@ -99,6 +99,20 @@ const questions = [
     message: "Please select a license: ",
     choices: ["MIT", "Apache", "GPL 3.0"],
   },
+
+  // User inputs Github Username
+  {
+    type: "input",
+    name: "githubUsername",
+    message: "Type out your Github username",
+  },
+
+  // User inputs project
+  {
+    type: "input",
+    name: "projectLink",
+    message: "Enter your project link here: ",
+  },
 ];
 
 inquirer.prompt(questions);
