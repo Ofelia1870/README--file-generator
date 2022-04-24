@@ -91,6 +91,14 @@ const questions = [
     message:
       "Write the test instructions for your project and provide running examples: ",
   },
+
+  // User selects a license from various options
+  {
+    type: "list",
+    name: "license",
+    message: "Please select a license: ",
+    choices: ["MIT", "Apache", "GPL 3.0"],
+  },
 ];
 
 inquirer.prompt(questions);
