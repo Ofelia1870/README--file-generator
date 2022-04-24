@@ -107,11 +107,18 @@ const questions = [
     message: "Type out your Github username",
   },
 
-  // User inputs project
+  // User inputs github profile link
   {
     type: "input",
-    name: "projectLink",
-    message: "Enter your project link here: ",
+    name: "profileLink",
+    message: "Enter your Github profile link here: ",
+  },
+
+  // User inputs email address
+  {
+    type: "input",
+    name: "email",
+    message: "Enter your email address: ",
   },
 ];
 
