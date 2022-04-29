@@ -24,7 +24,7 @@ function generateMarkdown(data) {
   - [Usage](${data.usageLink})
   - [Contributing](${data.contributingLink})
   - [Tests](${data.testsLink})
-  - [Questions](${data.questionsLink})
+  - [Questions?](${data.questionsLink})
   - [License](${data.licenseLink})
 
   ## Installation
@@ -47,8 +47,16 @@ function generateMarkdown(data) {
 
   ${data.license}
 
-  ## Questions
-  
+  ## Questions?
+
+  GitHub Pages: ${data.githubUsername} ${data.profileLink}
+
+  Email: ${data.email}
+
+  How to Reach Me with Additional Questions: ${data.contact}
+
+
+
  
 
 
