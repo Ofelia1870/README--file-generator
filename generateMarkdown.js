@@ -26,6 +26,16 @@ function generateMarkdown(data) {
   - [Tests](${data.testsLink})
   - [Questions](${data.questionsLink})
   - [License](${data.licenseLink})
+
+  ## Installation
+
+  ${data.installation}
+
+  ## Usage
+
+  ${data.usage}
+
+  
  
 
 
