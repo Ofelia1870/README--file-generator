@@ -2,15 +2,22 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license, data) {
   const licensePicked = data.license[0];
-  let licenseString = "";
+  let licenseBadge = "";
   if (licensePicked === "None") {
-    licenseString = "";
+    licenseBadge = "";
   }
   if (licensePicked === "MIT") {
     licenseBadge =
       "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)";
   }
-  console.log(data.licenseString);
+  if (licensePicked === "Apache") {
+    licenseBadge =
+      "![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)";
+  }
+  if (licensePicked === "Boost") {
+    licenseBadge =
+      "![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)";
+  }
 }
 
 // TODO: Create a function that returns the license link
