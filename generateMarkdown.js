@@ -22,7 +22,22 @@ function renderLicenseBadge(license, data) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license, data) {
+  const licensePicked = data.license[0];
+  let licenseLink = "";
+  if (licensePicked === "None") {
+    licenseLink = "";
+  }
+  if (licensePicked === "MIT") {
+    licenseLink = "![License: MIT](https://opensource.org/licenses/MIT)";
+  }
+  if (licensePicked === "Apache") {
+    licenseLink = "![License](https://opensource.org/licenses/Apache-2.0)";
+  }
+  if (licensePicked === "Boost") {
+    licenseLink = "![License](https://www.boost.org/LICENSE_1_0.txt)";
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
