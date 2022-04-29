@@ -41,7 +41,16 @@ function renderLicenseLink(license, data) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  const licensePicked = data.license[0];
+  let licenseSection = "";
+  if (licensePicked === "None") {
+    licenseSection = "";
+  }
+  if (licensePicked === "MIT") {
+    licenseSection = "";
+  }
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -79,6 +88,7 @@ function generateMarkdown(data) {
   ## License
 
   ${renderLicenseBadge(data)}
+  ${renderLicenseLink(data)}
 
   ## Questions?
 
