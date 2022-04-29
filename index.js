@@ -94,10 +94,10 @@ const questions = [
 
   // User selects a license from various options
   {
-    type: "list",
+    type: "checkbox",
     name: "license",
     message: "Please select a license: ",
-    choices: ["MIT", "Apache", "GPL 3.0"],
+    choices: ["None", "MIT", "Apache", "GPL 3.0"],
   },
 
   // User inputs Github Username

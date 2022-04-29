@@ -1,6 +1,17 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license, data) {
+  const licensePicked = data.license[0];
+  let licenseString = "";
+  if (licensePicked === "None") {
+    licenseString = "";
+  }
+  if (licensePicked === "MIT") {
+    licenseBadge =
+      "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)";
+  }
+  console.log(data.licenseString);
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -45,7 +56,7 @@ function generateMarkdown(data) {
 
   ## License
 
-  ${data.license}
+  ${renderLicenseBadge(data)}
 
   ## Questions?
 
