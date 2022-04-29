@@ -35,6 +35,19 @@ function generateMarkdown(data) {
 
   ${data.usage}
 
+  ## Contributing
+
+  ${data.contribute}
+
+  ## Tests
+
+  ${data.tests}
+
+  ## License
+
+  ${data.license}
+
+  ## Questions
   
  
 
