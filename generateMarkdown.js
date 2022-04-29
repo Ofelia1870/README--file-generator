@@ -20,12 +20,12 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
-  - [Installation]()
-  - [Usage]()
-  - [Contributing]()
-  - [Tests]()
-  - [Questions]()
-  - [License]()
+  - [Installation](${data.installationLink})
+  - [Usage](${data.usageLink})
+  - [Contributing](${data.contributingLink})
+  - [Tests](${data.testsLink})
+  - [Questions](${data.questionsLink})
+  - [License](${data.licenseLink})
  
 
 
