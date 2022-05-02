@@ -97,7 +97,7 @@ const questions = [
     type: "checkbox",
     name: "license",
     message: "Please select a license: ",
-    choices: ["None", "MIT", "Apache", "Boost"],
+    choices: ["None", "MIT", "Apache", "BDS 3-Clause"],
   },
 
   // User inputs Github Username
