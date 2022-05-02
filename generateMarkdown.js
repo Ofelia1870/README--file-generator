@@ -14,9 +14,9 @@ function renderLicenseBadge(license, data) {
     licenseBadge =
       "![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)";
   }
-  if (licensePicked === "Boost") {
+  if (licensePicked === "BDS 3-Clause") {
     licenseBadge =
-      "![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)";
+      "![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)";
   }
 }
 
@@ -35,7 +35,7 @@ function renderLicenseLink(license, data) {
     licenseLink = "![License](https://opensource.org/licenses/Apache-2.0)";
   }
   if (licensePicked === "BSD 3-Clause") {
-    licenseLink = "![License](https://www.boost.org/LICENSE_1_0.txt)";
+    licenseLink = "![License](https://opensource.org/licenses/BSD-3-Clause)";
   }
 }
 
