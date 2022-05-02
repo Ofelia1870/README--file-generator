@@ -127,6 +127,20 @@ const questions = [
     name: "contact",
     message: "Enter instructions for contacting you: ",
   },
+
+  // User inputs current year
+  {
+    type: "input",
+    name: "year",
+    message: "Enter the current year: ",
+  },
+
+  // User inputs first and last name
+  {
+    type: "input",
+    name: "fullName",
+    message: "Type out your first and last name",
+  },
 ];
 
 inquirer.prompt(questions);
